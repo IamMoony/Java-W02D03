@@ -9,12 +9,21 @@ public class Intermediate_A3 {
 
         Student data[] = {s1, s2, s3};
 
-        for (int i = 0; i < data.length; i++) {
-            System.out.println(data[i].toString());
-        }
+        System.out.println();
+        System.out.println("using toString() and age as var");
+        System.out.println("--------------------------------");
 
         for (int i = 0; i < data.length; i++) {
-            System.out.println(data[i].getFirstName() + " " + data[i].getLastName());
+
+            System.out.println(data[i].toString());
+            System.out.println();
+        }
+        System.out.println("using getters and  setters & calculation for age");
+        System.out.println("------------------------------------------------");
+        for (int i = 0; i < data.length; i++) {
+
+            System.out.println(data[i].getFirstName() + " " + data[i].getLastName()+"is born on " +
+                    ""+data[i].getBirthYear()+" age "+data[i].getAge(2019)+", and goes to "+data[i].getClassNumber()+"\n");
         }
     }
 }
