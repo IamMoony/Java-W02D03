@@ -11,4 +11,8 @@ public class ElectronicBook extends Book {
     public String getFileFormat() {
         return fileFormat;
     }
+
+    public void setFileFormat(){
+        this.fileFormat = fileFormat;
+    }
 }
