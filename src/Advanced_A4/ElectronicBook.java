@@ -15,4 +15,15 @@ public class ElectronicBook extends Book {
     public void setFileFormat(){
         this.fileFormat = fileFormat;
     }
+
+    @Override
+    public String toString() {
+        return "ElectronicBook{" +
+                "fileFormat='" + fileFormat + '\'' +
+                ", title='" + title + '\'' +
+                ", pages=" + pages +
+                ", author='" + author + '\'' +
+                ", price='" +  this.getPrice() +  '\'' +
+                '}';
+    }
 }

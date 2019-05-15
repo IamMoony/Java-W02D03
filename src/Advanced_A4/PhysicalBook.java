@@ -12,4 +12,14 @@ public class PhysicalBook extends Book {
     public String getWeight() {
         return weight;
     }
+
+    @Override
+    public String toString() {
+        return "PhysicalBook{" +
+                "weight='" + weight + '\'' +
+                ", title='" + title + '\'' +
+                ", pages=" + pages +
+                ", author='" + author + '\'' +
+                '}';
+    }
 }
