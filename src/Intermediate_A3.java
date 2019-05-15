@@ -22,7 +22,7 @@ public class Intermediate_A3 {
         System.out.println("------------------------------------------------");
         for (int i = 0; i < data.length; i++) {
 
-            System.out.println(data[i].getFirstName() + " " + data[i].getLastName()+"is born on " +
+            System.out.println(data[i].getFirstName() + " " + data[i].getLastName()+" is born on " +
                     ""+data[i].getBirthYear()+" age "+data[i].getAge(2019)+", and goes to "+data[i].getClassNumber()+"\n");
         }
     }
