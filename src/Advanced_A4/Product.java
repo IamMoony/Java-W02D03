@@ -12,5 +12,15 @@ public class Product {
         this.price = price;
     }
 
+    public String getName() {
+        return name;
+    }
 
+    public String getDescr() {
+        return descr;
+    }
+
+    public int getPrice() {
+        return price;
+    }
 }

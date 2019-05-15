@@ -14,8 +14,17 @@ public class Book extends Product {
         this.pages = pages;
         this.author = author;
 
-
-
     }
 
+    public String getTitle() {
+        return title;
+    }
+
+    public int getPages() {
+        return pages;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
 }

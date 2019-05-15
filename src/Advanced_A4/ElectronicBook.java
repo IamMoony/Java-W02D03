@@ -7,4 +7,8 @@ public class ElectronicBook extends Book {
      super(name, descr, price, title, pages, author);
      this.fileFormat = fileFormat;
     }
+
+    public String getFileFormat() {
+        return fileFormat;
+    }
 }

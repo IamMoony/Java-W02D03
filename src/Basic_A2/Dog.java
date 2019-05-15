@@ -1,3 +1,5 @@
+package Basic_A2;
+
 public class Dog {
 
     private String name;
