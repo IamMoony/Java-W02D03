@@ -1,3 +1,5 @@
+package Advanced_A4;
+
 public class Product {
 
     private String name;

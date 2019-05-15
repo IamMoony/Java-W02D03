@@ -1,3 +1,7 @@
+package Advanced_A4;
+
+import Advanced_A4.Product;
+
 public class Book extends Product {
 
     String title;
